@@ -1,0 +1,83 @@
+
+
+@media only screen and (max-width: 1160px) {
+.nav-title{
+    top: -10px;
+    .site-nav-dropdown{
+        .menu-lv-3{
+            padding-top: 20px;
+        }
+    }
+}
+.megamenu-center{
+    top: -11px;
+}
+.megamenu-center-2{
+    top: -11px;
+}
+.megamenu-center-3{
+    top: -11px;
+}
+.dropdown-megamenu-right{
+    top: -11px;
+}
+.menu-right{
+    top: -11px;
+}
+.header-middle-right{
+    padding-bottom: 20px;
+    .nav-user-action-shop{
+        padding-bottom: 20px;
+    }
+}
+.menu-lv-2{
+    z-index: -1;
+}
+.dropdown-menu-right{
+    padding-right: 40px;
+}
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+  .header-middle-left {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 6000px;
+    position: relative;
+    &::after {
+      content: url(../icons/user-regular.svg);
+      position: absolute;
+      width: 48px;
+      height: 25px;
+      top: 16px;
+      right: -150px;
+      padding-right: 20px;
+    }
+    &::before{
+        content: url(../icons/shopping-bag-solid.svg);
+        position: absolute;
+        width: 48px;
+        height: 25px;
+        top: 16px;
+        right: -200px;
+        padding-right: 20px;
+    }
+   
+  
+    .menu-lv-1 {
+      display: none;
+    }
+    .menu-lv-2 {
+      display: none;
+    }
+  }
+  .header-middle-item {
+    display: none;
+  }
+  .header-middle-right{
+      padding-right: 20px;
+  }
+}
